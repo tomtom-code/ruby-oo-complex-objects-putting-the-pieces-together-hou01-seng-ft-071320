@@ -3,7 +3,7 @@ require 'pry'
 
 class Shoe
 
-  attr_accessor (:color, :size, :material)
+  attr_accessor (:color)
   attr_reader (:brand)
 
   def initialize(init_brand)
