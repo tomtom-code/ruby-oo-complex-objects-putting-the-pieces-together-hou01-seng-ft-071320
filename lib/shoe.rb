@@ -10,7 +10,7 @@ class Shoe
 
   end
 
-  def color=("red")
+  def color=(color)
     @color
   end
 
