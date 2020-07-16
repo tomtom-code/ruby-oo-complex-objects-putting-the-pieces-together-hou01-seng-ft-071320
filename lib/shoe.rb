@@ -2,5 +2,6 @@
 require 'pry'
 
 class Shoe
-  
+
+
 end
