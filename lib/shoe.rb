@@ -3,10 +3,13 @@ require 'pry'
 
 class Shoe
 
-  attr_accessor (:brand)
+  attr_accessor (:brand, :color, :size, :material)
 
-  def initialize(init_brand)
+  def initialize(init_brand, color, size, material)
     @brand = init_brand
+    @color = color
+    @size = size
+    @material = material
 
   end
 
