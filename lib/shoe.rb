@@ -8,8 +8,17 @@ class Shoe
   def initialize(init_brand)
     @brand = init_brand
 
-
   end
+
+  def color=(red)
+    @color
+  end
+
+  def color
+    @color
+  end
+
+
 
 
 end
